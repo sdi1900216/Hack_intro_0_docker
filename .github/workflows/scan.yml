@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'rancher/healthcheck:v0.3.8'
+          default: 'crazymax/diun:edge'
 
 # env:
 #   REGISTRY: ghcr.io
