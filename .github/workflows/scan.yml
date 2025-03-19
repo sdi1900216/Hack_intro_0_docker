@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'bitnami/kibana:latest'
+          default: 'rancher/healthcheck:v0.3.8'
 
 # env:
 #   REGISTRY: ghcr.io
