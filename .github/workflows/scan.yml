@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'sha256-67c867dcaa340824b7e63c0650e931fc53c75dc813a3dfa1d76b671cb494eb84'
+          default: 'bitnami/kibana:latest'
 
 # env:
 #   REGISTRY: ghcr.io
