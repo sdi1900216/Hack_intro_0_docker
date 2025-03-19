@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'redhat/ubi8:8.10-1222-source'
+          default: 'redhat/ubi8:8.10-1184.1741795395'
 
 # env:
 #   REGISTRY: ghcr.io
